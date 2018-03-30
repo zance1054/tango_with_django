@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+{% load staticfiles %}
+
+<html>
+<head>
+  <title>Rango</title>
+  <link rel="stylesheet" type="text/css" href="{% static "StyleSheets/index.css" %}">
+</head>
+<div class="container">
+  <div class="jumbotron">
+    <h1 style="color:DodgerBlue;"> <i><b> BE MORE AGILE </b></i> </h1>
+  </div>
+</div>
+<body>
+<h1>Rango says...</h1>
+<div>
+hey there partner! <br />
+<strong>{{ boldmessage }}</strong><br />
+</div>
+<div>
+<a href="rango/about.html">About</a><br />
+<img src="{% static "Images/Doggies.jpg" %}" alt="Pictures of pups" style="width:500px;height:600px;"/>
+</div>
+</body>
+</html>

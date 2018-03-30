@@ -1,0 +1,17 @@
+
+.jumbotron{
+  text-align: center;
+  font-size: 50px;
+  font-family: sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 20px;
+}
+
+head{
+  background-color: SandyBrown;
+}
+
+body{
+  background-color: Bisque;
+}
